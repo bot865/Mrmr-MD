@@ -3,24 +3,24 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "919931122319"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.ownernumber = [ process.env.OWNER_NUMBER || "201028085788"],
+global.ownername = process.env.OWNER_NAME || "💙𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅_✰",
 global.ytname = "YT: AyushBotz.inc"
-global.socialm = "GitHub: Ayushpandey023"
+global.socialm = "GitHub: ELAKRAB ELYOTUBER "
 global.location = "Indian"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "Marmar-MD",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.stickername = process.env.STICKER || "𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅",
 global.packname = 'Sticker By'
-global.author = process.env.AUTHOR || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.author = process.env.AUTHOR || "𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅",
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "Ayush botz inc."
+global.wm = "ELAKRAB ELYOTUBER "
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
+global.link = 'https://whatsapp.com/channel/0029VahbMZl4tRrkdpJrCv2f'
 
 //custom prefix
 global.prefa = process.env.PREFIX || ".",
@@ -39,15 +39,15 @@ global.autoread_status = false //auto view status/story
 
 //reply messages
 global.mess = {
-    done: '🍭 *Here you go, darling!* ',
-    prem: '🍭 *My darling, this feature is reserved for premium users only*',
-    admin: '🍭 *My darling, this feature is reserved for admins only*',
-    botAdmin: '🍭 *Darling, this feature can only be used when the bot is a group admin* ',
-    owner: '🍭 *My dearest, this feature is reserved for the owner only*',
-    group: '🍭 *Sweetheart, this feature is exclusively for groups*',
-    private: '🍭 *My love, this feature is exclusively for private chats*',
-    wait: '🍭 *Darling, in process...* ',    
-    error: '🍭 *Oh darling, there seems to be an error!*',
+    done: '🐍 *تفضلي يا عزيزتي!*',
+ prem: '🐍 *عزيزتي، هذه الميزة مخصصة للمستخدمين المميزين فقط*',
+ admin: '🐍 *عزيزتي، هذه الميزة مخصصة للمشرفين فقط*',
+ botAdmin: '🐍 *عزيزي، لا يمكن استخدام هذه الميزة إلا عندما يكون الروبوت مسؤولاً عن المجموعة*',
+ groupadmin: '🐍 *عزيزتي، هذه الميزة مخصصة للمالك فقط*',
+ owner: '🐍 *عزيزتي، هذه الميزة مخصصة للمجموعات حصريًا*',
+ group: '🐍 *حبيبتي، هذه الميزة مخصصة للمحادثات الخاصة فقط*',
+ :'🐍 *عزيزي، قيد المعالجة...*',
+ Error: '🐍 *يا حبيبي، يبدو أن هناك خطأ!*',
 }
 
 module.exports = {
