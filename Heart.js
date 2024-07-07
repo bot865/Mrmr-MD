@@ -32,7 +32,7 @@ let afk = require("./Gallery/lib/afk");
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
- global.modnumber = '919060791616' 
+ global.modnumber = '201028085788' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'));
 // let autoblck =JSON.parse(fs.readFileSync('./Gallery/database/autoblock.json'));
@@ -185,7 +185,7 @@ var Ayushlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"Done ✅️"
+"تـــــم ✅️"
 ]
 let { key } = await Maria.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -234,8 +234,8 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰',
-            url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
+            author: '𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅✰',
+            url: "https://t.me/ELAKRAB_ELYouTuber" + data2.data.result.file_path
             }
             mariayresult.push(result)
         }
@@ -1611,88 +1611,77 @@ case 'dare':
        
 	                if (!m.isGroup) return reply(mess.group)
                    const dare =[
-"eat 2 tablespoons of rice without any side dishes, if it's dragging you can drink",
-         "spill people who make you pause",
-         "call crush/pickle now and send ss",
-         "drop only emote every time you type on gc/pc for 1 day.",
-         "say Welcome to Who Wants To Be a Millionaire! to all the groups you have",
-         "call ex saying miss",
-         "sing the chorus of the last song you played",
-         "vn your ex/crush/girlfriend, says hi (name), wants to call, just a moment. I miss🥺👉🏼👈🏼",
-         "Bang on the table (which is at home) until you get scolded for being noisy",
-         "Tell random people - I was just told I was your twin first, we separated, then I had plastic surgery. And this is the most ciyusss_ thing",
-         "mention ex's name",
-         "make 1 rhyme for the members!",
-         "send ur whatsapp chat list",
-         "chat random people with gheto language then ss here",
-         "tell your own version of embarrassing things",
-         "tag the person you hate",
-         "Pretending to be possessed, for example: possessed by dog, possessed by grasshoppers, possessed by refrigerator, etc.",
-         "change name to *I AM DONKEY* for 24 hours",
-         "shout *ma chuda ma chuda ma chuda* in front of your house",
-         "snap/post boyfriend photo/crush",
-         "tell me your boyfriend type!",
-         "say *i hv crush on you, do you want to be my girlfriend?* to the opposite sex, the last time you chatted (submit on wa/tele), wait for him to reply, if you have, drop here",
-         "record ur voice that read *titar ke age do titar, titar ke piche do titar*",
-         "prank chat ex and say *i love u, please come back.* without saying dare!",
-         "chat to contact wa in the order according to your battery %, then tell him *i am lucky to hv you!*",
-         "change the name to *I am a child of randi* for 5 hours",
-         "type in bengali 24 hours",
-         "Use selmon bhoi photo for 3 days",
-         "drop a song quote then tag a suitable member for that quote",
-         "send voice note saying can i call u baby?",
-         "ss recent call whatsapp",
-         "Say *YOU ARE SO BEAUTIFUL DON'T LIE* to guys!",
-         "pop to a group member, and say fuck you",
-         "Act like a chicken in front of ur parents",
-         "Pick up a random book and read one page out loud in vn n send it here",
-         "Open your front door and howl like a wolf for 10 seconds",
-         "Take an embarrassing selfie and paste it on your profile picture",
-         "Let the group choose a word and a well known song. You have to sing that song and send it in voice note",
-         "Walk on your elbows and knees for as long as you can",
-         "sing national anthem in voice note",
-         "break;dance for 30 seconds in the sitting room😂",
-         "Tell the saddest story you know",
-         "make a twerk dance video and put it on status for 5mins",
-         "Eat a raw piece of garlic",
-         "Show the last five people you texted and what the messages said",
-         "put your full name on status for 5hrs",
-         "make a short dance video without any filter just with a music and put it on ur status for 5hrs",
-         "call ur bestie, bitch",
-         "put your photo without filter on ur status for 10mins",
-         "say i love oli london in voice note🤣🤣",
-         "Send a message to your ex and say I still like you",
-         "call Crush/girlfriend/bestie now and screenshot here",
-         "pop to one of the group member personal chat and Say you ugly bustard",
-         "say YOU ARE BEAUTIFUL/HANDSOME to one of person who is in top of ur pinlist or the first person on ur chatlist",
-         "send voice notes and say, can i call u baby, if u r boy tag girl/if girl tag boy",
-         "write i love you (random grup member name, who is online) in personal chat, (if u r boy write girl name/if girl write boy name) take a snap of the pic and send it here",
-         "use any bollywood actor photo as ur pfp for 3 days",
-         "put your crush photo on status with caption, this is my crush",
-         "change name to I AM GAY for 5 hours",
-         "chat to any contact in whatsapp and say i will be ur bf/gf for 5hours",
-         "send voice note says i hv crush on you, want to be my girlfriend/boyfriend or not? to any random person from the grup(if u girl choose boy, if boy choose girl",
-         "slap ur butt hardly send the sound of slap through voice note😂",
-         "state ur gf/bf type and send the photo here with caption, ugliest girl/boy in the world",
-         "shout bravooooooooo and send here through voice note",
-         "snap your face then send it here",
-         "Send your photo with a caption, i am lesbian",
-         "shout using harsh words and send it here through vn",
-         "shout you bastard in front of your mom/papa",
-         "change the name to i am idiot for 24 hours",
-         "slap urself firmly and send the sound of slap through voice note😂",
-         "say i love the bot owner Maria through voice note",
-         "send your gf/bf pic here",
-         "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
-         "break;up with your best friend for 5hrs without telling him/her that its a dare",
-          "tell one of your frnd that u love him/her and wanna marry him/her, without telling him/her that its a dare",
-          "say i love depak kalal through voice note",
-          "write i am feeling horny and put it on status, u can delete it only after 5hrs",
-          "write i am lesbian and put it on status, u can delete only after 5hrs",
-          "kiss your mommy or papa and say i love you😌",
-          "put your father name on status for 5hrs",
-          "send abusive words in any grup, excepting this grup, and send screenshot proof here"
-     ]
+			   
+     ]"تناول ملعقتين كبيرتين من الأرز بدون أي أطباق جانبية، وإذا كان مملاً يمكنك شربه"،
+ "أسكب الأشخاص الذين يجعلونك تتوقف"،
+ "اتصل بـ Crush/Pickle الآن وأرسل SS"،
+ "أسقط التعبير التعبيري فقط في كل مرة تكتب فيها على gc/pc لمدة يوم واحد.",
+ "قل مرحبًا بك في من يريد أن يكون مليونيرًا! لجميع المجموعات الموجودة لديك"،
+ "الاتصال السابق قائلا ملكة جمال"،
+ "غناء جوقة الأغنية الأخيرة التي قمت بتشغيلها"،
+ "عندما تقول لك صديقتك السابقة/المعجبة بها/مرحبًا (الاسم)، وتريد الاتصال بها، لحظة واحدة فقط. أفتقد🥺👉🏼👉🏼"،
+ "اضرب على الطاولة (الموجودة في المنزل) حتى يتم توبيخك لأنك صاخبة"،
+ "أخبر أشخاصًا عشوائيين - لقد قيل لي للتو أنني كنت توأمك أولاً، ثم انفصلنا، ثم أجريت لي عملية تجميل. وهذا هو الشيء الأكثر روعة"،
+ "اذكر اسم السابقين"،
+ "اصنع قافية واحدة للأعضاء!",
+ "أرسل قائمة محادثات الواتس اب الخاصة بك"
+ "دردش مع أشخاص عشوائيين بلغة الغيتو ثم هنا"،
+ "أخبر نسختك الخاصة من الأشياء المحرجة"،
+ "ضع علامة على الشخص الذي تكرهه"،
+ "التظاهر بالامتلاك، على سبيل المثال: استحواذ كلب، استحواذ جراد، استحواذ ثلاجة، إلخ."،
+ "تغيير الاسم إلى *أنا حمار* لمدة 24 ساعة"،
+ "اصرخ * ما تشودا ما تشودا ما تشودا * أمام منزلك"،
+ "التقاط/نشر صورة/إعجاب لصديقك"،
+ "أخبرني بنوع صديقك!",
+ "قل *أنا معجب بك، هل تريدين أن تكوني صديقتي؟ * للجنس الآخر، آخر مرة تحدثت فيها (أرسل على wa/tele)، انتظر حتى يرد، إذا كان لديك، قم بالتسجيل هنا"،
+ "سجل صوتك الذي يقرأ *titar ke age do titar، titar ke piche do titar*"،
+ "قم بمقلب الدردشة السابقة وقل *أنا أحبك، يرجى العودة.* دون أن تقول جرأة!",
+ "قم بالدردشة مع جهة الاتصال بالترتيب حسب نسبة البطارية لديك، ثم أخبره *أنا محظوظ بوجودك!*"،
+ "قم بتغيير الاسم إلى *أنا طفل راندي* لمدة 5 ساعات"،
+ "اكتب باللغة البنغالية 24 ساعة"،
+ "استخدم صورة سلمون بهوي لمدة 3 أيام"،
+ "ضع اقتباسًا لأغنية ثم قم بالإشارة إلى العضو المناسب لهذا الاقتباس"،
+ "أرسل ملاحظة صوتية تقول فيها هل يمكنني الاتصال بك يا عزيزي؟",
+ "مكالمة واتساب الأخيرة"،
+ "قل *أنت جميلة جدًا ولا تكذبي* على الرجال!"،
+ "اذهب إلى أحد أعضاء المجموعة، وقل اللعنة عليك"،
+ "تصرف كالدجاجة أمام والديك"
+ "اختر كتابًا عشوائيًا واقرأ صفحة واحدة بصوت عالٍ في vn n وأرسله هنا"،
+ "افتح باب منزلك واعوي مثل الذئب لمدة 10 ثواني"
+ "التقط صورة شخصية محرجة وألصقها على صورتك الشخصية"
+ "دع المجموعة تختار كلمة وأغنية مشهورة. عليك أن تغني تلك الأغنية وترسلها في ملاحظة صوتية"،
+ "امشي على المرفقين والركبتين قدر استطاعتك"
+ "غناء النشيد الوطني في الملاحظة الصوتية"،
+ "استراحة؛رقص لمدة 30 ثانية في غرفة الجلوس😂"،
+ "احكي أتعس قصة تعرفها"
+ "قم بعمل فيديو رقصة twerk وقم بوضعه على الحالة لمدة 5 دقائق"،
+ "تناول قطعة من الثوم النيئ"
+ "إظهار آخر خمسة أشخاص قمت بمراسلتهم وما ورد في الرسائل"،
+ "ضع اسمك الكامل في الحالة لمدة 5 ساعات"،
+ "اصنع فيديو رقص قصير بدون أي فلتر فقط مع الموسيقى وضعه على حالتك لمدة 5 ساعات"،
+ "اتصل بصديقتك المفضلة، أيتها العاهرة"،
+ "ضع صورتك بدون فلتر على حالتك لمدة 10 دقائق"،
+ "قل أنني أحب أولي لندن في الملاحظة الصوتية🤣🤣"،
+ "أرسل رسالة إلى حبيبك السابق وقل له إنني مازلت معجبًا بك"،
+ "اتصل بـ Crush/صديقة/Bestie الآن والتقط لقطة الشاشة هنا"،
+ "انتقل إلى الدردشة الشخصية لأحد أعضاء المجموعة وقل أيها الحبارى القبيح"،
+ "قل أنك جميل/وسيم لشخص موجود في أعلى قائمتك المفضلة أو أول شخص في قائمة الدردشة الخاصة بك"،
+ "أرسل ملاحظات صوتية وقل، هل يمكنني الاتصال بك يا عزيزي، إذا كنت ولدًا، ضع علامة على فتاة/إذا كانت فتاة، ضع علامة على صبي"،
+ "اكتب أحبك (اسم عضو المجموعة العشوائي، المتصل بالإنترنت) في الدردشة الشخصية، (إذا كنت ولدًا اكتب اسم فتاة / إذا كانت فتاة تكتب اسم ولد) التقط الصورة وأرسلها هنا"،
+ "استخدم أي صورة لممثل بوليوود كصورة شخصية لمدة 3 أيام"،
+ "ضع الصورة التي تعجبك في الحالة مع تسمية توضيحية تقول، هذا هو الشخص الذي يعجب بي"،
+ "تغيير الاسم إلى أنا مثلي الجنس لمدة 5 ساعات"،
+ "قم بالدردشة مع أي جهة اتصال عبر تطبيق WhatsApp وقل إنني سأكون صديقك المفضل لمدة 5 ساعات"،
+ "أرسل ملاحظة صوتية تقول إنني معجب بك، أريد أن أكون صديقتي/صديقي أم لا؟ إلى أي شخص عشوائي من المجموعة (إذا كنت فتاة، فاختر ولدًا، وإذا كان الصبي اختار فتاة"،
+ "صفعة على مؤخرتك بالكاد ترسل صوت الصفعة عبر الملاحظة الصوتية😂"،
+ "اذكر نوع صديقتك المفضلة وأرسل الصورة هنا مع تسمية توضيحية تقول " "أبشع فتاة/فتى في العالم"،
+ "أصرخ برافوووووو وأرسل هنا عبر الملاحظة الصوتية"،
+ "التقط وجهك ثم أرسله هنا"،
+ "أرسل صورتك مع تعليق، أنا مثلية"،
+ "أصرخ باستخدام كلمات قاسية وأرسلها هنا عبر vn"،
+ "أصرخ أيها الوغد أمام والدتك/بابا"،
+ "تغيير الاسم إلى أنا أحمق لمدة 24 ساعة"،
+ "صفع نفسك بقوة وأرسل صوت الصفعة عبر الملاحظة الصوتية😂"،
                    const Mariadareww = dare[Math.floor(Math.random() * dare.length)]
                    buffer = await getBuffer(`https://graph.org/file/8dd92e67cd4019b092f53.jpg`)
                    Maria.sendMessage(from, { image: buffer, caption: '*You have chosen Dare*\n\n'+ Mariadareww }, {quoted:m})
@@ -1704,95 +1693,81 @@ case 'truth':
     
 	
                            const truth =[
-                                  "Have you ever liked anyone? How long?",
-                 "If you can or if you want, which gc/outside gc would you make friends with? (maybe different/same type)",
-                 "apa ketakutan terbesar kamu?",
-                 "Have you ever liked someone and felt that person likes you too?",
-                 "What is the name of your friend's ex-girlfriend that you used to secretly like?",
-                 "Have you ever stolen money from your father or mom? The reason?",
-                 "What makes you happy when you're sad?",
-                 "Ever had a one sided love? if so who? how does it feel bro?", 
-                 "been someone's mistress?",
-                 "the most feared thing",
-                 "Who is the most influential person in your life?",
-                 "what proud thing did you get this year", 
-                 "Who is the person who can make you awesome", 
-                 "Who is the person who has ever made you very happy?", 
-                 "Who is closest to your ideal type of partner here", 
-                 "Who do you like to play with??", 
-                 "Have you ever rejected people? the reason why?",
-                 "Mention an incident that made you hurt that you still remember", 
-                 "What achievements have you got this year??",
-                 "What's your worst habit at school??",
-                 "What song do you sing most in the shower",
-                 "Have you ever had a near-death experience",
-                 "When was the last time you were really angry. Why?",
-                 "Who is the last person who called you",
-                 "Do you have any hidden talents, What are they",
-                 "What word do you hate the most?",
-                 "What is the last YouTube video you watched?",
-                 "What is the last thing you Googled",
-                 "Who in this group would you want to swap lives with for a week",
-                 "What is the scariest thing thats ever happened to you",
-                 "Have you ever farted and blamed it on someone else",
-                 "When is the last time you made someone else cry",
-                 "Have you ever ghosted a friend",
-                 "Have you ever seen a dead body",
-                 "Which of your family members annoys you the most and why",
-                 "If you had to delete one app from your phone, which one would it be",
-                 "What app do you waste the most time on",
-                 "Have you ever faked sick to get home from school",
-                 "What is the most embarrassing item in your room",
-                 "What five items would you bring if you got stuck on a desert island",
-                 "Have you ever laughed so hard you peed your pants",
-                 "Do you smell your own farts",
-                 "have u ever peed on the bed while sleeping ðŸ¤£ðŸ¤£",
-                 "What is the biggest mistake you have ever made",
-                 "Have you ever cheated in an exam",
-                 "What is the worst thing you have ever done",
-                 "When was the last time you cried",
-                 "whom do you love the most among ur parents", 
-                 "do u sometimes put ur finger in ur nosetrilðŸ¤£", 
-                 "who was ur crush during the school days",
-                 "tell honestly, do u like any boy in this grup",
-                 "have you ever liked anyone? how long?",
-                 "do you have gf/bf','what is your biggest fear?",
-                 "have you ever liked someone and felt that person likes you too?",
-                 "What is the name of your ex boyfriend of your friend that you once liked quietly?",
-                 "ever did you steal your mothers money or your fathers money",
-                 "what makes you happy when you are sad",
-                 "do you like someone who is in this grup? if you then who?",
-                 "have you ever been cheated on by people?",
-                 "who is the most important person in your life",
-                 "what proud things did you get this year",
-                 "who is the person who can make you happy when u r sad",
-                 "who is the person who ever made you feel uncomfortable",
-                 "have you ever lied to your parents",
-                 "do you still like ur ex",
-                 "who do you like to play together with?",
-                 "have you ever stolen big thing in ur life? the reason why?",
-                 "Mention the incident that makes you hurt that you still remember",
-                 "what achievements have you got this year?",
-                 "what was your worst habit at school?",
-                 "do you love the bot creator Ayush?",
-                 "have you ever thought of taking revenge from ur teacher?",
-                 "do you like current prime minister of ur country",
-                 "you non veg or veg",
-                 "if you could be invisible, what is the first thing you would do",
-                 "what is a secret you kept from your parents",
-                 "Who is your secret crush",
-                 "whois the last person you creeped on social media",
-                 "If a genie granted you three wishes, what would you ask for",
-                 "What is your biggest regret",
-                 "What animal do you think you most look like",
-                 "How many selfies do you take a day",
-                 "What was your favorite childhood show",
-                 "if you could be a fictional character for a day, who would you choose",
-                 "whom do you text the most",
-                 "What is the biggest lie you ever told your parents",
-                 "Who is your celebrity crush",
-                 "Whats the strangest dream you have ever had",
-                 "do you play pubg, if you then send ur id number"
+				   "هل أحببت أحداً من قبل؟ إلى متى؟"،
+ "إذا كنت تستطيع أو إذا أردت، ما هو gc/خارج gc الذي ستقيم معه صداقات؟ (ربما مختلف/نفس النوع)"،
+ "آبا كيتاكوتان تيربيسار كامو؟"،
+ "هل سبق لك أن أحببت شخصًا ما وشعرت أن هذا الشخص معجب بك أيضًا؟",
+ "ما اسم حبيبة صديقك السابقة التي كنت تحبها سراً؟",
+ "هل سبق لك أن سرقت أموالاً من والدك أو والدتك؟ السبب؟",
+ "ما الذي يجعلك سعيدا عندما تكون حزينا؟",
+ "هل كان لديك حب من طرف واحد؟ إذا كان الأمر كذلك فمن؟ كيف تشعر يا أخي؟"،
+ "هل كانت عشيقة شخص ما؟"،
+ "الشيء الأكثر رعبا"،
+ "من هو الشخص الأكثر تأثيرا في حياتك؟",
+ "ما هو الشيء الذي تفتخر به هذا العام"
+ "من هو الشخص الذي يمكنه أن يجعلك رائعًا"
+ "من هو الشخص الذي جعلك سعيدًا جدًا؟",
+ "من هو الأقرب إلى نوع الشريك المثالي هنا"،
+ "مع من تحب اللعب؟؟"
+ "هل سبق لك أن رفضت الناس؟ ما السبب؟"،
+ "اذكر حادثة سببت لك الأذى ومازلت تتذكرها"
+ "ما هي الإنجازات التي حصلت عليها هذا العام؟؟"،
+ "ما هي أسوأ عادتك في المدرسة؟؟"
+ "ما هي الأغنية التي تغنيها أكثر في الحمام"،
+ "هل سبق لك أن مررت بتجربة الإقتراب من الموت"؟
+ "متى كانت آخر مرة كنت فيها غاضبًا حقًا. لماذا؟"،
+ "من هو آخر شخص اتصل بك"
+ "هل لديك أي مواهب مخفية، ما هي"،
+ "ما هي الكلمة التي تكرهها أكثر؟"،
+ "ما هو آخر فيديو شاهدته على اليوتيوب؟",
+ "ما هو آخر شيء قمت بالبحث عنه في جوجل"،
+ "من في هذه المجموعة تريد أن تتبادل الحياة معه لمدة أسبوع"
+ "ما هو الشيء الأكثر رعبا الذي حدث لك على الإطلاق"
+ "هل سبق لك أن أطلقت الريح وألقيت اللوم على شخص آخر"
+ "متى آخر مرة جعلت شخصًا آخر يبكي"
+ "هل سبق لك أن خدعت صديقًا"
+ "هل رأيت جثة ميتة من قبل"
+ "أي من أفراد عائلتك يزعجك أكثر ولماذا"
+ "إذا كان عليك حذف تطبيق واحد من هاتفك، فما هو التطبيق الذي سيكون؟"
+ "ما هو التطبيق الذي تضيع فيه معظم الوقت"؟
+ "هل سبق لك أن تظاهرت بالمرض لتعود من المدرسة إلى المنزل"
+ "ما هو أكثر شيء محرج في غرفتك"
+ "ما هي العناصر الخمسة التي ستجلبها إذا علقت في جزيرة صحراوية"،
+ "هل سبق لك أن ضحكت بشدة لدرجة أنك تبولت في ملابسك"
+ "هل تشم رائحة الريح الخاصة بك"
+ "هل تبولت من قبل على السرير أثناء النوم؟"
+ "ما هو أكبر خطأ ارتكبته في حياتك"
+ "هل سبق لك أن غشيت في الامتحان"
+ "ما هو أسوأ شيء قمت به على الإطلاق"
+ "متى آخر مرة بكيت فيها"
+ "من تحب أكثر من والديك"
+ "هل تضع إصبعك أحيانًا في أنفك؟"
+ "من كان يعجبك أيام الدراسة"
+ "أخبرني بصراحة هل تحب أي فتى في هذه المجموعة"
+ "هل أحببت أحداً من قبل؟ إلى متى؟",
+ "هل لديك صديقة/صديقة حميمة"، "ما هو أكبر مخاوفك؟"،
+ "هل سبق لك أن أحببت شخصًا ما وشعرت أن هذا الشخص معجب بك أيضًا؟",
+ "ما اسم صديقك السابق الذي كنت تحبه بهدوء؟",
+ "هل سرقت مال أمك أو مال أبيك"
+ "ما الذي يسعدك عندما تكون حزينا"
+ "هل تحب شخصًا في هذه المجموعة؟ إذا كنت تحبه، فمن؟"،
+ "هل سبق لك أن خدعك الناس؟",
+ "من هو أهم شخص في حياتك"
+ "ما هي الأشياء التي تفتخر بها هذا العام"
+ "من هو الشخص الذي يستطيع أن يسعدك عندما تكون حزيناً"
+ "من هو الشخص الذي جعلك تشعر بعدم الراحة"
+ "هل كذبت على والديك من قبل"
+ "هل مازلت تحب حبيبك السابق"
+ "من تحب أن تلعب معه؟"،
+ "هل سبق لك أن سرقت شيئًا كبيرًا في حياتك؟ السبب؟",
+ "أذكر الحادثة التي تؤلمك والتي مازلت تتذكرها"
+ "ما هي الإنجازات التي حصلت عليها هذا العام؟",
+ "ما هي أسوأ عادتك في المدرسة؟",
+ "هل تحب مبتكر الروبوت عيوش؟"،
+ "هل فكرت يومًا في الانتقام من معلمك؟",
+ "هل تحب رئيس الوزراء الحالي لبلدك"،
+ "أنت غير نباتي أو نباتي"،
+ "إذا كنت تستطيع أن تكون" 
              ]
                            const Mariatruthww = truth[Math.floor(Math.random() * truth.length)]
                            buffer = await getBuffer(`https://graph.org/file/8dd92e67cd4019b092f53.jpg`)
@@ -1800,176 +1775,21 @@ case 'truth':
                            break;
                            
   case 'menu': case 'help': case 'h': 
-      const txt = `╭─「 *Konichiwa* 」
-│⋊ 𝕌𝕤𝕖𝕣: ${pushname} 
-│⋊ 𝔹𝕠𝕥:  ${botname}
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
-│⋊ 𝔻𝕒𝕥𝕖: ${xdate}
-│⋊ 𝕋𝕚𝕞𝕖:  ${xtime}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: ${ownername}
-│⋊ 𝕧𝕖𝕣𝕤𝕚𝕠𝕟: ${mver}
-│⋊ ℍ𝕠𝕤𝕥: ${os.hostname()}
-│⋊ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
-│⋊ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
-│⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/Maria-support
-╰────────────┈平和
- 🎀𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧: https://www.instagram.com/ayushpandeyy_023
+      const txt =  `
+       ͟͟͞͞ᵡ  *｢ E L A K R A B  B O T ｣* ᵡ͟͟͞͞
+	
+   ❐ Bot Name : *𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐵𝛩𝑇*
+   ≡ Botmode : *${mode}*
+   ≡ Runtime : *${run}*
+   ≡ Jam : *${jam}*
+   ≡ Tanggal : *${tanggal}*     
+    
+> © ELAKRAB ELYOTUBER 
+`
 
-Here's the list of my Commands.🔖
-${readmore}
-┌──⊰ _*🧧GENERAL🧧*_
-│⊳ 🌿 ${prefix}hi
-│⊳ 🌿 ${prefix}dev
-│⊳ 🌿 ${prefix}info
-│⊳ 🌿 ${prefix}support
-│⊳ 🌿 ${prefix}rules
-│⊳ 🌿 ${prefix}term
-│⊳ 🌿 ${prefix}help
-│⊳ 🌿 ${prefix}runtime
-│⊳ 🌿 ${prefix}ping
-│⊳ 🌿 ${prefix}owner
-│⊳ 🌿 ${prefix}script
-└──────────⊰
-┌──⊰ _*🎓Education🎓*_
-│⊳ 📚 ${prefix}element 
-│⊳ 📚 ${prefix}calculator 
-│⊳ 📚 ${prefix}sciencefact
-│⊳ 📚 ${prefix}sciencenews
-└──────────⊰
-┌──⊰ _*💻Coding💻*_
-│⊳ 🌀${prefix}exec
-│⊳ 🌀${prefix}run
-│⊳ 🌀${prefix}gitclone
-└──────────⊰
-┌──⊰ _*🧩OWNER🧩*_
-│⊳ ♠️ ${prefix}session
-│⊳ ♠️ ${prefix}join
-│⊳ ♠️ ${prefix}mode *[self/public]*
-│⊳ ♠️ ${prefix}shutdown
-│⊳ ♠️ ${prefix}restart
-│⊳ ♠️ ${prefix}autoread *[option]*
-│⊳ ♠️ ${prefix}autotyping *[option]*
-│⊳ ♠️ ${prefix}autorecording *[option]*
-│⊳ ♠️ ${prefix}autorecordtyp *[option]*
-│⊳ ♠️ ${prefix}autobio *[option]*
-│⊳ ♠️ ${prefix}autoswview *[option]*
-│⊳ ♠️ ${prefix}setppbot
-│⊳ ♠️ ${prefix}stealdp
-│⊳ ♠️ ${prefix}block
-│⊳ ♠️ ${prefix}unblock
-│⊳ ♠️ ${prefix}backup
-│⊳ ♠️ ${prefix}getcase
-│⊳ ♠️ ${prefix}creategc
-└──────────⊰
-┌──⊰ _*👮🏻‍♂️GROUP👮🏻‍♂️*_
-│⊳ 🍁 ${prefix}antilink
-│⊳ 🍁 ${prefix}closetime
-│⊳ 🍁 ${prefix}opentime
-│⊳ 🍁 ${prefix}kick
-│⊳ 🍁 ${prefix}promote
-│⊳ 🍁 ${prefix}demote
-│⊳ 🍁 ${prefix}setdesc
-│⊳ 🍁 ${prefix}setppgc
-│⊳ 🍁 ${prefix}tagall
-│⊳ 🍁 ${prefix}hidetag
-│⊳ 🍁 ${prefix}totag
-│⊳ 🍁 ${prefix}group *[option]*
-│⊳ 🍁 ${prefix}editinfo
-│⊳ 🍁 ${prefix}gclink
-│⊳ 🍁 ${prefix}revoke
-│⊳ 🍁 ${prefix}listonline
-└──────────⊰
-┌──⊰ _*🎉FUN🎉*_
-│⊳🎟️ ${prefix}truth
-│⊳🎟️ ${prefix}dare
-│⊳🎟️ ${prefix}couple 
-│⊳🎟️ ${prefix}Ship
-│⊳🎟️ ${prefix}soulmate
-│⊳🎟️ ${prefix}checkdeath
-│⊳🎟️ ${prefix}uglycheck
-│⊳🎟️ ${prefix}lovelycheck
-│⊳🎟️ ${prefix}prettycheck
-│⊳🎟️ ${prefix}hornycheck
-│⊳🎟️ ${prefix}lesbiancheck
-│⊳🎟️ ${prefix}lesbicheck
-│⊳🎟️ ${prefix}lesbiancheck
-│⊳🎟️ ${prefix}cutecheck
-│⊳🎟️ ${prefix}gaycheck
-│⊳🎟️ ${prefix}greatcheck
-│⊳🎟️ ${prefix}awesomecheck 
-└──────────⊰
-┌──⊰ _*📂download📂*_
-│⊳ 📥 ${prefix}play
-│⊳ 📥 ${prefix}ytmp3
-│⊳ 📥 ${prefix}ytmp4
-│⊳ 📥 ${prefix}igimage 
-│⊳ 📥 ${prefix}igvideo 
-│⊳ 📥 ${prefix}pinterest
-│⊳ 📥 ${prefix}apk
-└──────────⊰
-┌──⊰ _*✨️WALLPAPER✨️*_
-│⊳ 🎴 ${prefix}Doraemon
-│⊳ 🎴 ${prefix}pokemon 
-│⊳ 🎴 ${prefix}zero-two 
-└──────────⊰
-┌──⊰ _*🎐SnapBlend🎐*_
-│⊳🎀 ${prefix}shadow
-│⊳🎀 ${prefix}write
-│⊳🎀 ${prefix}smoke
-│⊳🎀 ${prefix}burnpaper
-│⊳🎀 ${prefix}romantic
-│⊳🎀 ${prefix}writeart
-│⊳🎀 ${prefix}rainboweffect
-│⊳🎀 ${prefix}smokyneon
-│⊳🎀 ${prefix}underwaterocean
-│⊳🎀 ${prefix}coffecup
-│⊳🎀 ${prefix}doublelove
-│⊳🎀 ${prefix}undergrass
-│⊳🎀 ${prefix}love
-│⊳🎀 ${prefix}narutobanner
-│⊳🎀 ${prefix}shinetext
-└──────────⊰
-┌──⊰ _*⛩️OTHERS⛩️*_
-│⊳ 🏮 ${prefix}sticker
-│⊳ 🏮 ${prefix}qc
-│⊳ 🏮 ${prefix}smeme
-│⊳ 🏮 ${prefix}take
-│⊳ 🏮 ${prefix}toimage
-│⊳ 🏮 ${prefix}tovideo
-│⊳ 🏮 ${prefix}toaudio
-│⊳ 🏮 ${prefix}tomp3
-│⊳ 🏮 ${prefix}tovn
-│⊳ 🏮 ${prefix}togif
-│⊳ 🏮 ${prefix}tourl
-│⊳ 🏮 ${prefix}toqr
-│⊳ 🏮 ${prefix}toviewonce
-│⊳ 🏮 ${prefix}fliptext
-│⊳ 🏮 ${prefix}emojimix
-│⊳ 🏮 ${prefix}circlevideo
-│⊳ 🏮 ${prefix}google
-│⊳ 🏮 ${prefix}pinterest
-│⊳ 🏮 ${prefix}dalle
-│⊳ 🏮 ${prefix}gpt
-│⊳ 🏮 ${prefix}say
-│⊳ 🏮 ${prefix}tts
-│⊳ 🏮 ${prefix}obfuscate
-└──────────⊰
-┌──⊰ _*🃏Games🃏*_
-│⊳ 🎰 ${prefix}slot
-│⊳ 🎰 ${prefix}poker
-│⊳ 🎰 ${prefix}dice
-│⊳ 🎰 ${prefix}flipcoin
-│⊳ 🎰 ${prefix}Rps
-│⊳ 🎰 ${prefix}guess
-│⊳ 🎰 ${prefix}roulette
-│⊳ 🎰 ${prefix}blackjack
-│⊳ 🎰 ${prefix}compliment
-└──────────⊰
+🍂'لتمكين NSFW (المسؤول فقط!)، أدخل *${prefix}nsfw* 
 
-🍂 To enable NSFW (Admin only!), enter  *${prefix}nsfw* 
-
-🍂 Obtain the full list of NSFW commands by typing  *${prefix}nsfwmenu*`
+🍂' احصل على القائمة الكاملة لأوامر NSFW عن طريق الكتاب*${prefix}nsfwmenu*`
 
   if (randomImage) {
     Maria.sendMessage(from, { image: { url: randomImage }, caption: txt }, { quoted: m });
@@ -3129,8 +2949,7 @@ if(isCmd){
                     exec(budy.slice(2), (err, stdout) => {
                         if (err) return reply(err)
                         if (stdout) return reply(stdout)
-                    })
-                }
+، 
         }
     } catch (err) {
         Maria.sendText(m.chat, util.format(err), m)
